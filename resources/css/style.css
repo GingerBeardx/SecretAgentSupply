@@ -1,0 +1,11 @@
+/* Global stles */
+
+body {
+  background-color: black;
+  color: white;
+}
+
+div {
+  border: 1px white solid;
+  display: block;
+}
