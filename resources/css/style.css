@@ -125,7 +125,7 @@ nav ul {
 }
 
 .product-image img {
-  width: 85%
+  max-width: 8em;
 }
 
 .info {
@@ -138,4 +138,11 @@ nav ul {
 
 .business-info {
   display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  background-color: black;
+  color: white;
+  padding-left: 2em;
 }
