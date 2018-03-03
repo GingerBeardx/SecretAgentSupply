@@ -147,6 +147,7 @@ nav ul {
   padding-bottom: 1em;
   padding-left: 2em;
   padding-top: 1em;
+
 }
 
 footer {
@@ -160,4 +161,23 @@ footer {
 footer span {
   display: flex;
   justify-content: flex-start;
+}
+
+@media only screen and (max-width: 1024px) {
+  .product {
+    min-width: 47%;
+  }
+
+  nav .container {
+    display: none;
+  }
+
+  .mobile-nav.container {
+    display: flex;
+    justify-content: center;
+  }
+
+  #glasses {
+    display: none;
+  }
 }
