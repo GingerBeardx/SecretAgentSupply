@@ -163,6 +163,7 @@ footer span {
   justify-content: flex-start;
 }
 
+/* tablet styles */
 @media only screen and (max-width: 1024px) {
   .product {
     min-width: 47%;
@@ -178,6 +179,55 @@ footer span {
   }
 
   #glasses {
+    display: none;
+  }
+}
+
+/* phone styles */
+@media only screen and (max-width: 470px) {
+  h4 {
+    font-size: 0.77em;
+  }
+
+  .main-banner {
+    height: 15em;
+  }
+
+  .headline {
+    padding: 1em 2em;
+    width: 100%;
+  }
+
+  .headline h1 {
+    font-size: 1em;
+  }
+
+  .products {
+    justify-content: center;
+  }
+
+  .product {
+    margin-bottom: 2em;
+    min-width: 90%;
+  }
+
+  .info {
+    display: flex;
+    margin-top: 0.5em;
+    width: 90%;
+  }
+
+  .business-info {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer {
+    display: flex;
+  }
+
+  #watch {
     display: none;
   }
 }
